@@ -3,13 +3,13 @@
 	"id": "qga-utilities",
 	"version": "${version}",
 	"name": "QGA Utilities",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Utilities mod for QQue's Great Adventure. A part of the Fabric switch.",
 	"authors": [
-		"Me!"
+		"QQueTV",
+		"wrldmap"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/wrldmap/QGA_Utilities"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/qga-utilities/icon.png",
@@ -37,8 +37,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
