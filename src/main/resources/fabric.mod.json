@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "qga-utilities",
+	"id": "qga_utilities",
 	"version": "${version}",
 	"name": "QGA Utilities",
 	"description": "Utilities mod for QQue's Great Adventure. A part of the Fabric switch.",
@@ -11,30 +11,23 @@
 	"contact": {
 		"sources": "https://github.com/wrldmap/QGA_Utilities"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/qga-utilities/icon.png",
+	"license": "MIT",
+	"icon": "assets/qga_utilities/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"gg.wrldmap.qgautilities.QGAUtilities"
-		],
-		"client": [
-			"gg.wrldmap.qgautilities.QGAUtilitiesClient"
 		],
 		"fabric-datagen": [
 			"gg.wrldmap.qgautilities.QGAUtilitiesDataGenerator"
 		]
 	},
 	"mixins": [
-		"qga-utilities.mixins.json",
-		{
-			"config": "qga-utilities.client.mixins.json",
-			"environment": "client"
-		}
+		"qga_utilities.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
-		"minecraft": "~1.20.1",
+		"minecraft": "1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	}
